@@ -9,4 +9,4 @@ while True:
     s    = ser.readline()
     line = s.decode('utf-8').replace('\r\n','')
     print(line)		# Prints output to screen
-    f.write(line)	# Appends output to file
+    f.write(line+"\r\n")	# Appends output to file
